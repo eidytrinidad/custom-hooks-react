@@ -21,3 +21,10 @@ export const useForm = (initialState={}) => {
     return [values,handleInputChange,reset]
 
 }
+ //Forma de Uso en la aplicacion
+ 
+//   const [formValues,handleInputChange,reset] = useForm({
+//     search:''
+// })
+
+// const {search} =formValues;
